@@ -23,7 +23,9 @@ public class RefTester {
         pt1.y = 200;
 
         System.out.println(pt1);
-        pt1 = null;
+        pt1 = null; // gdy pt1 ma wartosc null to pt2 dalej jest przypisane do miejsca w pamiecie i dalej ma wartość
+        pt2.x = 150;
+        pt2.y = 200;
         System.out.println(pt2);
     }
 }
