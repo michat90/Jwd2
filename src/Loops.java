@@ -58,10 +58,10 @@ public class Loops {
             System.out.println("pętla nieskończona");
         }*/
         //wszystkie cyfry
-        for (int i = 0; i < 10; i++) {
+/*        for (int i = 0; i < 10; i++) {
             System.out.printf("%d ",i);
         }
-        System.out.println();
+        System.out.println();*/
 
 /*        //silnia
         int number =100;
@@ -92,8 +92,21 @@ public class Loops {
             i++;
         } while (i< 100);*/
 
+/*        for (int i = 1; i < 10; i++) {
+            if (i % 2 == 1) {
+                continue;
+            }
+            System.out.print(i);
+            System.out.print(" ");
+        }*/
 
-
+        //Przerwanie pętli zewnętrznej za pomoca etykiety
+       out: for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 50; j++) {
+                System.out.println(i + " " + j);
+                break out;
+            }
+        }
 
     }
 }
