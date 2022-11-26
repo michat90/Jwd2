@@ -6,7 +6,7 @@ na trzecie 4 ziarna i na każde następne pole dwa razy więcej ziaren niż na p
 Napisz program, który zasymuluje taką sytuację i zliczy sumę wszystkich ziaren na szachownicy.
 
 */
-public class chessSum {
+public class ChessSum {
     public static void main(String[] args) {
         int chessboardSize = 64;
         BigInteger grainSum = BigInteger.valueOf(0);
