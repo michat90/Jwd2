@@ -23,5 +23,5 @@ public class ClassTester {
 }
 
 // moze byc kilka class w w pliku ale jedna publiczna
-class A {
+class C {
 }

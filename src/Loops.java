@@ -30,12 +30,12 @@ public class Loops {
         //String
 
 /*
-        char grade = 'A';
+        char grade = 'zajecia3.A';
         switch (grade) {
-            case 'A':
+            case 'zajecia3.A':
                 System.out.println("Wspaniale!");
                 break;
-            case 'B':
+            case 'zajecia3.B':
                 System.out.println("Dobrze!");
                 break;
             case 'D':
